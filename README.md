@@ -53,7 +53,4 @@ O objetivo deste banco de dados é fornecer suporte a operações de um sistema 
 
 ---
 
-## **Como Utilizar**
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/ecommerce-database.git
+

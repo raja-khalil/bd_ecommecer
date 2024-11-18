@@ -134,16 +134,6 @@ VALUES
 ('Ana Santos', '11933334444', 'ana@vendas.com');
 
 
--- Exibe todos os clientes, ordenados pelo nome
-SELECT * 
-FROM Cliente
-ORDER BY Nome;
 
--- Conta os pedidos de cada cliente
-SELECT Cliente.Nome, COUNT(Pedido.ID_Pedido) AS Total_Pedidos
-FROM Cliente
-LEFT JOIN Pedido ON Cliente.ID_Cliente = Pedido.Cliente_ID_Cliente
-GROUP BY Cliente.Nome
-ORDER BY Total_Pedidos DESC;
 
 
